@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "test-verbose": "jest --verbose",
-    "test-coverage": "jest --coverage",
-    "test-coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+    "test-cov": "jest --coverage",
+    "coveralls": "jest --coverage && cat coverage/lcov.info | coveralls"
   },
   "author": "",
   "license": "ISC",
